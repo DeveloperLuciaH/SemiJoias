@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SemiJoias.SemiJoiaPedidoPage"
+             Title="{Binding Nome}">
+    
+    <StackLayout>
+
+        <StackLayout>
+            <Frame BackgroundColor="DarkRed" Padding="12" CornerRadius="0">
+                <Label Text="Semi Joias Finas" HorizontalTextAlignment="Center" TextColor="White" FontSize="20" />
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Padding="10" BackgroundColor="White">
+            <Image Source="{Binding ImagemUrl}" HeightRequest="150" WidthRequest="150" />
+
+            <TableView>
+                <TableRoot>
+                    <TableSection Title="Seu Pedido" TextColor="DarkRed">
+
+                        <TextCell Text="{Binding Nome}" TextColor="#000005" />
+                        <TextCell Text="{Binding ValorTotal}" TextColor="#000005" />
+                    </TableSection>
+
+                    <TableSection Title="Seus Dados" TextColor="DarkRed">
+                        <EntryCell x:Name="strNome" Label="Nome" Placeholder=" Informe seu nome" />
+                        <EntryCell x:Name="strEndereco" Label="Endereço" Placeholder=" Informe seu endereço" />
+                        <EntryCell x:Name="strTelefone" Label="Telefone" Placeholder=" Informe seu telefone" />
+                        <EntryCell x:Name="strEmail" Label="E-mail" Placeholder=" Informe seu e-mail" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+
+            <Button x:Name="btnPedido" Text="Concluir Pedido" Clicked="btnPedido_Clicked" CornerRadius="30" VerticalOptions="End" TextColor="White" BackgroundColor="DarkRed" FontAttributes="Bold" />
+
+        </StackLayout> 
+
+     </StackLayout>
+
+</ContentPage>

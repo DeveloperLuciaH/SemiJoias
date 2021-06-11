@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SemiJoias.SemiJoiaPedidoConfirmacao"
+             Title="{Binding Nome}">
+    
+    <ContentPage.Content>
+        <StackLayout Padding="15" BackgroundColor="white" VerticalOptions="Center" HorizontalOptions="Center">
+            
+            <Frame BackgroundColor="DarkRed">
+                <Label Text="Terra Brasil Virtual Semi Joias" FontSize="Medium" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="Center" HorizontalOptions="Center" />
+            </Frame>     
+                        
+            <Frame>                
+                <Image Source="{Binding ImagemUrl}" HeightRequest="200" WidthRequest="200" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="White" />
+            </Frame>
+
+            <Frame>
+                <Label Text="{Binding Nome}" FontSize="Medium" TextColor="Black" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="Center" HorizontalOptions="Center" />
+            </Frame>
+
+            <StackLayout BackgroundColor="White">
+                
+                <Frame BackgroundColor="DarkRed">
+                    <Label Text="{Binding ValorTotal}" FontSize="Medium" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" />
+                </Frame>
+            </StackLayout>
+
+            <Frame BackgroundColor="White">
+                <Label Text="Compra efetivada com sucesso!" TextColor="Black" FontAttributes="Bold" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="White" />
+            </Frame>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

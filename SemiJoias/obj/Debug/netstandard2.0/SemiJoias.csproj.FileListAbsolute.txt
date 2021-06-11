@@ -1,0 +1,17 @@
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\bin\Debug\netstandard2.0\SemiJoias.deps.json
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\bin\Debug\netstandard2.0\SemiJoias.dll
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\bin\Debug\netstandard2.0\ref\SemiJoias.dll
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\bin\Debug\netstandard2.0\SemiJoias.pdb
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\SemiJoiaDetailsPage.xaml.g.cs
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\SemiJoiaPedidoConfirmacao.xaml.g.cs
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\SemiJoiaPedidoPage.xaml.g.cs
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\SemiJoias.AssemblyInfoInputs.cache
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\SemiJoias.AssemblyInfo.cs
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\SemiJoias.csproj.CoreCompileInputs.cache
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\SemiJoias.dll
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\ref\SemiJoias.dll
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\SemiJoias.pdb
+C:\Users\lhmvt\source\repos\MOBILE\SemiJoias\SemiJoias\obj\Debug\netstandard2.0\SemiJoias.csprojAssemblyReference.cache

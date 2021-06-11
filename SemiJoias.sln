@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemiJoias.Android", "SemiJoias.Android\SemiJoias.Android.csproj", "{F5D4661D-C041-47BF-A2D8-9F3715887B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemiJoias", "SemiJoias\SemiJoias.csproj", "{0922551F-B4FF-451C-97D0-A29F5A29D08D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5D4661D-C041-47BF-A2D8-9F3715887B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D4661D-C041-47BF-A2D8-9F3715887B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D4661D-C041-47BF-A2D8-9F3715887B8D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F5D4661D-C041-47BF-A2D8-9F3715887B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D4661D-C041-47BF-A2D8-9F3715887B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D4661D-C041-47BF-A2D8-9F3715887B8D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0922551F-B4FF-451C-97D0-A29F5A29D08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0922551F-B4FF-451C-97D0-A29F5A29D08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0922551F-B4FF-451C-97D0-A29F5A29D08D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0922551F-B4FF-451C-97D0-A29F5A29D08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0922551F-B4FF-451C-97D0-A29F5A29D08D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0922551F-B4FF-451C-97D0-A29F5A29D08D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7123900-3404-4E69-A114-6D1E768ED6A7}
+	EndGlobalSection
+EndGlobal

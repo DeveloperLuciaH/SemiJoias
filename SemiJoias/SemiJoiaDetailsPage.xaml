@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SemiJoias.SemiJoiaDetailsPage"
+             Title="{Binding Nome}">
+    
+
+    <StackLayout>
+
+        <StackLayout>
+            <Frame BackgroundColor="DarkRed" Padding="12" CornerRadius="0">
+                <Label Text="Semi Joias de Luxo" HorizontalTextAlignment="Center" TextColor="White" FontSize="20" />
+            </Frame>
+        </StackLayout>
+        
+        <StackLayout Padding="10" BackgroundColor="White">
+            <Image Source="{Binding ImagemUrl}" HeightRequest="150" WidthRequest="150" />
+            <TableView>
+                <TableRoot>
+                    <TableSection Title="Acréscimos" TextColor="DarkRed">
+                        <SwitchCell Text="{Binding TextoTaxa}" On="{Binding TemTaxa, Mode=TwoWay}" />
+                        <SwitchCell Text="{Binding TextoEmbalagem}" On="{Binding TemEmbalagem, Mode=TwoWay}" />
+                        <TextCell Text="{Binding ValorTotal}" TextColor="DarkRed"/>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+
+            <Button x:Name="btnProximo" Text="Próximo" Clicked="btnProximo_Clicked" VerticalOptions="End" TextColor="White" FontAttributes="Bold" BackgroundColor="DarkRed" CornerRadius="30" />
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
